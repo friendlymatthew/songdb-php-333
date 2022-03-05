@@ -1,0 +1,79 @@
+html,
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scaffold {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #d1d5db;
+    padding: 2rem;
+    width: 100%;
+    margin: 4rem 0rem;
+
+}
+
+.form-title {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.form-field-title {
+    font-weight: 500;
+    opacity: 0.7;
+    font-size: 20px;
+    
+}
+
+
+.form-status {
+    background-color: navajowhite;
+    font-size: 20px;
+    width: auto;
+    padding: 10px;
+    border-radius: 3px;
+    transition: 0.4s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-status:hover {
+    background-color: skyblue;
+    
+}
+
+.form-submit {
+    font-weight: 600;
+    margin: 0px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.form-scaffold {
+    padding: 30px 0px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+}
+
+
+
+input {
+    margin: 4px 8px;
+    font-size: 18px;
+}
